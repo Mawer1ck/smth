@@ -1,0 +1,42 @@
+.оружие {
+    border-style: ridge;
+    
+    border-color: rgb(12, 71, 12);
+    
+    font-optical-sizing: 300px;
+    
+    padding: 10px;
+    
+    margin: 10px;
+    
+    max-width: 100%;
+    
+    height: auto;
+    color: #FFF;
+    font-size: large;
+}
+
+.guns {
+    border-style: groove;
+    max-width: 85%;
+    height: auto;
+    margin: 10px;
+}
+
+html {
+
+    background-image: url(листва.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+@media screen and (max-width:500px) {
+    .guns {
+        display: none;
+    }
+}
